@@ -1,0 +1,220 @@
+/** Base Styles **/
+body {
+  background: #a594f9;
+  color: white;
+  font-family: "Crimson Text", serif;
+}
+
+#about {
+  height: 550px;
+}
+
+#contact {
+  height: 400px;
+}
+
+#portfolio {
+  height: 1550px;
+}
+/** Grid **/
+
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 600px;
+  margin: 0 auto;
+  float: left;
+}
+
+.third-width {
+  width: 400px;
+  margin: 0 auto;
+  float: left;
+}
+
+/** Above the Fold **/
+header {
+  height: 800px;
+  background: url(../img/coffee-laptop-business-work-still-life-picjumbo-com-min.jpg) no-repeat 0px 120px;
+  background-size: cover;
+}
+
+header h1 {
+    color: #470024;
+    font-family: "Titillium Web", san-sans-serif;
+    font-size: 30px;
+    margin: 0 auto;
+    padding: 25px 40px 25px 0;
+    text-align: left;
+}
+
+nav {
+  float: right;
+  margin: 0 auto;
+  padding: 25px 25px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  color: #0D112B;
+  font-family: "Oxygen", sans-serif;
+  font-size: 25px;
+  padding-left: 80px;
+  text-decoration: none;
+}
+
+/** Tagline **/
+header h2 {
+  clear: both;
+  color: #470024;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 50px;
+  padding: 100px;
+  width: 700px;
+}
+
+header h2 span {
+  color: #5bb3d8;
+}
+
+/** Portfolio **/
+
+#portfolio {
+  background: #0D112B;
+  margin: 0 auto;
+}
+
+#portfolio h3 {
+  clear: both;
+  font-family: "Oxygen", sans-serif;
+  font-size: 25px;
+  margin: 0 0 25px 0;
+  padding: 50px ;
+  text-align: center;
+/*  border: 1px solid red;*/
+}
+
+#portfolio h4 a {
+  color: inherit;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+#portfolio p {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+#portfolio-text-box1, #portfolio-text-box2, #portfolio-text-box3 {
+  float: left;
+  height: 300px;
+  margin: 0 auto;
+  width: 500px;
+}
+
+#portfolio-text-box1, #portfolio-text-box3 {
+  padding: 50px 20px;
+}
+
+#portfolio-text-box1 {
+  vertical-align: text-top;
+}
+
+#portfolio-text-box2 {
+  text-align: right;
+  padding: 0 50px;
+}
+
+#portfolio p strong {
+  font-family: "Oxygen", sans-serif;
+}
+
+#portfolio img {
+  height: 300px;
+  width: 500px;
+  margin: 0 auto;
+  padding-left: 50px;
+  /*border: 1px solid red;*/
+}
+
+/** About **/
+
+#about {
+  background: url(../img/about-me.png) no-repeat 0px 0px;
+  clear: both;
+  margin: 0 auto;
+}
+
+#about h3 {
+  color: #0D112B;
+  font-family: "Oxygen", sans-serif;
+  font-size: 25px;
+  text-align: center;
+  padding-top: 50px;
+  margin: 0 auto;
+}
+
+#about p {
+  color: #0D112B;
+  font-size: 18px;
+  padding-left: 50px;
+}
+
+#about p span {
+  color: #470024;
+  font-size: 20px;
+  font-variant: small-caps;
+}
+
+/** Contact **/
+
+#contact {
+  background: #5B1865;
+  margin: 0 auto;
+}
+
+#contact h3 {
+  font-family: "Oxygen", sans-serif;
+  font-size: 25px;
+  text-align: center;
+  padding-top: 50px;
+  margin: 0 auto;
+}
+
+#contact h4 {
+  font-size: 20px;
+  text-align: center;
+}
+
+#contact p {
+  font-size: 18px;
+  text-align: center;
+}
+
+#contact p a{
+  color: inherit;
+  font-family: "Oxygen", sans-serif;
+  text-decoration: none;
+}
+
+#contact ul li {
+  display: inline-block;
+}
+
+#contact ul li img {
+  height: 50px;
+  padding-left: 40px;
+  width: 50px;
+}
+
+#contact iframe{
+  border: 0;
+  padding-left: 100px;
+}
