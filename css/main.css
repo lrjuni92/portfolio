@@ -13,9 +13,6 @@ body {
   height: 400px;
 }
 
-#portfolio {
-  height: 1550px;
-}
 /** Grid **/
 
 .full-width {
@@ -45,7 +42,7 @@ header {
 header h1 {
     color: #470024;
     font-family: "Titillium Web", san-sans-serif;
-    font-size: 30px;
+    font-size: 28px;
     margin: 0 auto;
     padding: 10px 40px 25px 0;
     text-align: left;
@@ -88,6 +85,7 @@ header h2 span {
 #portfolio {
   background: #0D112B;
   margin: 0 auto;
+  overflow: auto;
 }
 
 #portfolio h3 {
