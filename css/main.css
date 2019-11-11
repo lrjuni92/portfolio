@@ -35,7 +35,7 @@ body {
 /** Above the Fold **/
 header {
   height: 800px;
-  background: url(../img/coffee-laptop-business-work-still-life-picjumbo-com-min.jpg) no-repeat 0px 120px;
+  background: url(../img/coffee-laptop-business-work-still-life-picjumbo-com-min.png) no-repeat 0px 0px;
   background-size: cover;
 }
 
@@ -66,13 +66,16 @@ nav ul li a {
   text-decoration: none;
 }
 
+nav ul li a span {
+  color: white;
+}
 /** Tagline **/
 header h2 {
   clear: both;
   color: #470024;
   font-family: "Titillium Web", sans-serif;
   font-size: 50px;
-  padding: 100px;
+  padding: 50px;
   width: 700px;
 }
 
